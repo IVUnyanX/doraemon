@@ -1,0 +1,116 @@
+body{
+    background-color: red;
+}
+.rinkaku{
+    background-color: rgb(0, 140, 255);
+    width:500px;
+    height: 500px;
+    border-radius: 250px;
+    margin: 0 auto;
+    position: absolute;
+}
+.inside{
+    background-color: white;
+    width: 450px;
+    height:450px;
+    border-radius: 225px;
+    margin: 0 auto;
+    position: absolute;
+    top: 60px;
+    left: 33px;
+}
+.nose{
+    background-color: red;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    position: absolute;
+    top: 200px;
+    left: 230px;
+}
+.right-eye{
+    background-color: white;
+    width: 150px;
+    height: 150px;
+    border-radius: 75px;
+    position: absolute;
+    top: 75px;
+    left: 100px;
+    text-align: center;
+    font-size: 100px;
+    border: 3px solid black;
+
+}
+.left-eye{
+    background-color: white;
+    width: 150px;
+    height: 150px;
+    border-radius: 75px;
+    position: absolute;
+    top: 75px;
+    left: 250px;
+    text-align: center;
+    font-size: 100px;
+    border: 3px solid black;
+}
+.mouth{
+    width: 300px;
+    height: 150px;
+    background-color: rgb(194, 0, 0);
+    position: absolute;
+    border-radius: 50% / 0 0 100% 100%;
+    left: 110px;
+    top: 320px;
+}
+.beard1{
+    background-color: black;
+    width: 150px;
+    height: 5px;
+    position: absolute;
+    transform:skew(15deg,15deg);
+    top: 230px;
+    left: 50px;
+}
+.beard2{
+    background-color: black;
+    width: 150px;
+    height: 5px;
+    position: absolute;
+    transform:skew(165deg,165deg);
+    top: 230px;
+    left: 300px;
+}
+.beard3{
+    background-color: black;
+    width: 150px;
+    height: 5px;
+    position: absolute;
+    top: 270px;
+    left: 50px;
+}
+.beard4{
+    background-color: black;
+    width: 150px;
+    height: 5px;
+    position: absolute;
+    top: 270px;
+    left: 300px;
+}
+.beard5{
+    background-color: black;
+    width: 150px;
+    height: 5px;
+    position: absolute;
+    transform:skew(15deg,15deg);
+    top: 310px;
+    left: 300px;
+}
+.beard6{
+    background-color: black;
+    width: 150px;
+    height: 5px;
+    position: absolute;
+    transform:skew(165deg,165deg);
+    top: 310px;
+    left: 50px;
+}
